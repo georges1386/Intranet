@@ -1,0 +1,38 @@
+{
+  "name": "intranet",
+  "version": "0.0.1",
+  "description": "Un intranet dévéloppé spécialement pour notre classe afin de faciliter les échanges d'informations",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --watch-path=. --watch-path=api --watch-path=models index.js",
+    "deploy": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georges1386/Intranet.git"
+  },
+  "keywords": [
+    "Intranet",
+    "express",
+    "ejs",
+    "socket.io",
+    "body-parser",
+    "mysql",
+    "School",
+    "LBS"
+  ],
+  "author": "B1SI",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/georges1386/Intranet/issues"
+  },
+  "homepage": "https://github.com/georges1386/Intranet#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.8.1"
+  }
+}
