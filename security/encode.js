@@ -26,3 +26,5 @@ class Encode {
         return encoded;
     }
 }
+
+module.exports = Encode;

@@ -23,3 +23,5 @@ class Hash {
         return hash;
     }
 }
+
+module.exports = Hash;
