@@ -1,0 +1,38 @@
+{
+  "name": "intranet",
+  "version": "0.0.1",
+  "description": "Backend for an intranet network",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georges1386/intranet.git"
+  },
+  "keywords": [
+    "intranet",
+    "network",
+    "socket.io",
+    "express",
+    "ejs"
+  ],
+  "author": "B1SI",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/georges1386/intranet/issues"
+  },
+  "homepage": "https://github.com/georges1386/intranet#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.8.1"
+  }
+}
